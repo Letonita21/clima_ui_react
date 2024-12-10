@@ -29,7 +29,7 @@ export const ClimaApp = () => {
       setDataClima(data)
 
     } catch (error) {
-      console.error('Ocurrio un error en el programa', error)
+      console.error('Ocurrio un error ', error)
     }
 
   }
